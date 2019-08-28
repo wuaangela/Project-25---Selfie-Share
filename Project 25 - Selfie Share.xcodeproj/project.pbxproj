@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C258398223161BC0005E980A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C258398123161BC0005E980A /* AppDelegate.swift */; };
+		C258398423161BC0005E980A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C258398323161BC0005E980A /* ViewController.swift */; };
+		C258398723161BC0005E980A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C258398523161BC0005E980A /* Main.storyboard */; };
+		C258398923161BC6005E980A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C258398823161BC6005E980A /* Assets.xcassets */; };
+		C258398C23161BC6005E980A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C258398A23161BC6005E980A /* LaunchScreen.storyboard */; };
+		C258399723161BC6005E980A /* Project_25___Selfie_ShareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C258399623161BC6005E980A /* Project_25___Selfie_ShareTests.swift */; };
+		C25839A223161BC6005E980A /* Project_25___Selfie_ShareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25839A123161BC6005E980A /* Project_25___Selfie_ShareUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C258399323161BC6005E980A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C258397623161BC0005E980A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C258397D23161BC0005E980A;
+			remoteInfo = "Project 25 - Selfie Share";
+		};
+		C258399E23161BC6005E980A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C258397623161BC0005E980A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C258397D23161BC0005E980A;
+			remoteInfo = "Project 25 - Selfie Share";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C258397E23161BC0005E980A /* Project 25 - Selfie Share.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project 25 - Selfie Share.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C258398123161BC0005E980A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C258398323161BC0005E980A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C258398623161BC0005E980A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C258398823161BC6005E980A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C258398B23161BC6005E980A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C258398D23161BC6005E980A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C258399223161BC6005E980A /* Project 25 - Selfie ShareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project 25 - Selfie ShareTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C258399623161BC6005E980A /* Project_25___Selfie_ShareTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project_25___Selfie_ShareTests.swift"; sourceTree = "<group>"; };
+		C258399823161BC6005E980A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C258399D23161BC6005E980A /* Project 25 - Selfie ShareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project 25 - Selfie ShareUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C25839A123161BC6005E980A /* Project_25___Selfie_ShareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project_25___Selfie_ShareUITests.swift"; sourceTree = "<group>"; };
+		C25839A323161BC6005E980A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C258397B23161BC0005E980A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C258398F23161BC6005E980A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C258399A23161BC6005E980A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C258397523161BC0005E980A = {
+			isa = PBXGroup;
+			children = (
+				C258398023161BC0005E980A /* Project 25 - Selfie Share */,
+				C258399523161BC6005E980A /* Project 25 - Selfie ShareTests */,
+				C25839A023161BC6005E980A /* Project 25 - Selfie ShareUITests */,
+				C258397F23161BC0005E980A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C258397F23161BC0005E980A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C258397E23161BC0005E980A /* Project 25 - Selfie Share.app */,
+				C258399223161BC6005E980A /* Project 25 - Selfie ShareTests.xctest */,
+				C258399D23161BC6005E980A /* Project 25 - Selfie ShareUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C258398023161BC0005E980A /* Project 25 - Selfie Share */ = {
+			isa = PBXGroup;
+			children = (
+				C258398123161BC0005E980A /* AppDelegate.swift */,
+				C258398323161BC0005E980A /* ViewController.swift */,
+				C258398523161BC0005E980A /* Main.storyboard */,
+				C258398823161BC6005E980A /* Assets.xcassets */,
+				C258398A23161BC6005E980A /* LaunchScreen.storyboard */,
+				C258398D23161BC6005E980A /* Info.plist */,
+			);
+			path = "Project 25 - Selfie Share";
+			sourceTree = "<group>";
+		};
+		C258399523161BC6005E980A /* Project 25 - Selfie ShareTests */ = {
+			isa = PBXGroup;
+			children = (
+				C258399623161BC6005E980A /* Project_25___Selfie_ShareTests.swift */,
+				C258399823161BC6005E980A /* Info.plist */,
+			);
+			path = "Project 25 - Selfie ShareTests";
+			sourceTree = "<group>";
+		};
+		C25839A023161BC6005E980A /* Project 25 - Selfie ShareUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C25839A123161BC6005E980A /* Project_25___Selfie_ShareUITests.swift */,
+				C25839A323161BC6005E980A /* Info.plist */,
+			);
+			path = "Project 25 - Selfie ShareUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C258397D23161BC0005E980A /* Project 25 - Selfie Share */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C25839A623161BC6005E980A /* Build configuration list for PBXNativeTarget "Project 25 - Selfie Share" */;
+			buildPhases = (
+				C258397A23161BC0005E980A /* Sources */,
+				C258397B23161BC0005E980A /* Frameworks */,
+				C258397C23161BC0005E980A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Project 25 - Selfie Share";
+			productName = "Project 25 - Selfie Share";
+			productReference = C258397E23161BC0005E980A /* Project 25 - Selfie Share.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C258399123161BC6005E980A /* Project 25 - Selfie ShareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C25839A923161BC6005E980A /* Build configuration list for PBXNativeTarget "Project 25 - Selfie ShareTests" */;
+			buildPhases = (
+				C258398E23161BC6005E980A /* Sources */,
+				C258398F23161BC6005E980A /* Frameworks */,
+				C258399023161BC6005E980A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C258399423161BC6005E980A /* PBXTargetDependency */,
+			);
+			name = "Project 25 - Selfie ShareTests";
+			productName = "Project 25 - Selfie ShareTests";
+			productReference = C258399223161BC6005E980A /* Project 25 - Selfie ShareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C258399C23161BC6005E980A /* Project 25 - Selfie ShareUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C25839AC23161BC6005E980A /* Build configuration list for PBXNativeTarget "Project 25 - Selfie ShareUITests" */;
+			buildPhases = (
+				C258399923161BC6005E980A /* Sources */,
+				C258399A23161BC6005E980A /* Frameworks */,
+				C258399B23161BC6005E980A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C258399F23161BC6005E980A /* PBXTargetDependency */,
+			);
+			name = "Project 25 - Selfie ShareUITests";
+			productName = "Project 25 - Selfie ShareUITests";
+			productReference = C258399D23161BC6005E980A /* Project 25 - Selfie ShareUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C258397623161BC0005E980A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "A W";
+				TargetAttributes = {
+					C258397D23161BC0005E980A = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					C258399123161BC6005E980A = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C258397D23161BC0005E980A;
+					};
+					C258399C23161BC6005E980A = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C258397D23161BC0005E980A;
+					};
+				};
+			};
+			buildConfigurationList = C258397923161BC0005E980A /* Build configuration list for PBXProject "Project 25 - Selfie Share" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C258397523161BC0005E980A;
+			productRefGroup = C258397F23161BC0005E980A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C258397D23161BC0005E980A /* Project 25 - Selfie Share */,
+				C258399123161BC6005E980A /* Project 25 - Selfie ShareTests */,
+				C258399C23161BC6005E980A /* Project 25 - Selfie ShareUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C258397C23161BC0005E980A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C258398C23161BC6005E980A /* LaunchScreen.storyboard in Resources */,
+				C258398923161BC6005E980A /* Assets.xcassets in Resources */,
+				C258398723161BC0005E980A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C258399023161BC6005E980A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C258399B23161BC6005E980A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C258397A23161BC0005E980A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C258398423161BC0005E980A /* ViewController.swift in Sources */,
+				C258398223161BC0005E980A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C258398E23161BC6005E980A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C258399723161BC6005E980A /* Project_25___Selfie_ShareTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C258399923161BC6005E980A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C25839A223161BC6005E980A /* Project_25___Selfie_ShareUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C258399423161BC6005E980A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C258397D23161BC0005E980A /* Project 25 - Selfie Share */;
+			targetProxy = C258399323161BC6005E980A /* PBXContainerItemProxy */;
+		};
+		C258399F23161BC6005E980A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C258397D23161BC0005E980A /* Project 25 - Selfie Share */;
+			targetProxy = C258399E23161BC6005E980A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C258398523161BC0005E980A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C258398623161BC0005E980A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C258398A23161BC6005E980A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C258398B23161BC6005E980A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C25839A423161BC6005E980A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C25839A523161BC6005E980A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C25839A723161BC6005E980A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Project 25 - Selfie Share/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AW.Project-25---Selfie-Share";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C25839A823161BC6005E980A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Project 25 - Selfie Share/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AW.Project-25---Selfie-Share";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C25839AA23161BC6005E980A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Project 25 - Selfie ShareTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AW.Project-25---Selfie-ShareTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project 25 - Selfie Share.app/Project 25 - Selfie Share";
+			};
+			name = Debug;
+		};
+		C25839AB23161BC6005E980A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Project 25 - Selfie ShareTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AW.Project-25---Selfie-ShareTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project 25 - Selfie Share.app/Project 25 - Selfie Share";
+			};
+			name = Release;
+		};
+		C25839AD23161BC6005E980A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Project 25 - Selfie ShareUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AW.Project-25---Selfie-ShareUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Project 25 - Selfie Share";
+			};
+			name = Debug;
+		};
+		C25839AE23161BC6005E980A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Project 25 - Selfie ShareUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AW.Project-25---Selfie-ShareUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Project 25 - Selfie Share";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C258397923161BC0005E980A /* Build configuration list for PBXProject "Project 25 - Selfie Share" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C25839A423161BC6005E980A /* Debug */,
+				C25839A523161BC6005E980A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C25839A623161BC6005E980A /* Build configuration list for PBXNativeTarget "Project 25 - Selfie Share" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C25839A723161BC6005E980A /* Debug */,
+				C25839A823161BC6005E980A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C25839A923161BC6005E980A /* Build configuration list for PBXNativeTarget "Project 25 - Selfie ShareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C25839AA23161BC6005E980A /* Debug */,
+				C25839AB23161BC6005E980A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C25839AC23161BC6005E980A /* Build configuration list for PBXNativeTarget "Project 25 - Selfie ShareUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C25839AD23161BC6005E980A /* Debug */,
+				C25839AE23161BC6005E980A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C258397623161BC0005E980A /* Project object */;
+}
